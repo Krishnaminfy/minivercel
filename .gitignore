@@ -1,0 +1,10 @@
+.ssh/*
+!.ssh/.gitkeep
+# Node
+node_modules/
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash/
+.terraform.lock.hcl
